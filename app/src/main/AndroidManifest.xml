@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acer.labkom.HitungBangunRuangDanDatar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungPersegiPanjangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungBalokActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungLingkaranActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungBolaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungTabungActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungKerucutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.PilihBangunRuangActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.PilihBangunDatarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungPersegiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungSegitigaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungTrapesiumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungLayangLayangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungBelahKetupatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungKubusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungJajarGenjangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.acer.labkom.HitungBangunRuangDanDatar.HitungLimasSegiEmpatActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
